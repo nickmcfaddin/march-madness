@@ -9,7 +9,7 @@ def game(region, team1, team2):
         print(region + ": " + str(team1) + " defeats " + str(team2))
         return team1
     else:
-        print(region + ": " + str(team2) + " seed defeats " + str(team1))
+        print(region + ": " + str(team2) + " defeats " + str(team1))
         return team2
     
 def simulateRegion(region):
